@@ -12,3 +12,4 @@ override.tf.json
 # SSH keys
 *.pem
 *.pub
+.env
