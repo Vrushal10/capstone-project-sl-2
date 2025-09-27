@@ -1,0 +1,13 @@
+all:
+  children:
+    ubuntu_nodes:
+      hosts:
+        ubuntu-vm-1:
+          ansible_host: 40.71.170.68
+        ubuntu-vm-2:
+          ansible_host: 172.174.51.228
+        ubuntu-vm-3:
+          ansible_host: 172.206.207.108
+      vars:
+        ansible_user: adminuser
+        ansible_ssh_private_key_file: /home/ansibleautomation/.ssh/id_ed25519
